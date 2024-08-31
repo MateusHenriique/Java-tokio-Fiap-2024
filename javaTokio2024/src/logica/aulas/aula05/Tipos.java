@@ -1,7 +1,5 @@
 package logica.aulas.aula05;
 
-import java.util.Scanner;
-
 public class Tipos {
 
 	public static void main(String[] args) {

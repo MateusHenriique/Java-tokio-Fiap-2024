@@ -9,7 +9,7 @@ public class Ex11 {
 		System.out.print("Escreva sua idade em dias: ");
 		int idadeEmDias = Integer.parseInt(input.nextLine());
 		
-		int anos = idadeEmDias / 365; 
+		int anos = idadeEmDias / 365;
 		int meses = (idadeEmDias % 100) / 30; 
 		int dias = (idadeEmDias % 10); 
 		

@@ -26,6 +26,9 @@ public class Manipulacao {
 		String preco =  input.nextLine();
 		
 		float precoFloat = Float.parseFloat(preco);
+		System.out.println(precoFloat);
+		
+		input.close();
 	}
 
 }
