@@ -19,15 +19,29 @@ public class Ex05 {
 		switch (operacao) {
 		
 			case '+':
-				System.out.printf("A Soma de %d e %d é %d", number1, number2, (number1 + number2));
-			case '-':
-				System.out.printf("A Subtracao de %d e %d é %d", number1, number2, (number1 - number2));
-			case '*':
-				System.out.printf("A Multiplicacao de %d e %d é %d", number1, number2, (number1 * number2));
-			case '/':
-				System.out.printf("A Divisao de %d e %d é %d", number1, number2, (number1 / number2));
+				System.out.printf("A Soma de %d e %d e %d", number1, number2, (number1 + number2));
+				break;
 				
-		
+			case '-':
+				System.out.printf("A Subtracao de %d e %d e %d", number1, number2, (number1 - number2));
+				break;
+				
+			case '*':
+				System.out.printf("A Multiplicacao de %d e %d e %d", number1, number2, (number1 * number2));
+				break;
+				
+			case '/':
+				if (number1 == 0 || number2 == 0) {
+					System.out.printf("Nao e possivel fazer divisao por 0\n");
+					break;
+				}else {
+					System.out.printf("A Divisao de %d e %d e %d", number1, number2, (number1 / number2));
+					break;
+				}
+				
+			default:
+				System.out.println("Opcao invalida");
+				break;
 				
 		}
 		
