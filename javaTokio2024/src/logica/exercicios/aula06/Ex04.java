@@ -9,7 +9,7 @@ public class Ex04 {
 		
 		System.out.print("Digite o 1 numero: ");
 		int number1 = Integer.parseInt(input.nextLine());
-		System.out.print("Digite p 2 numero: ");
+		System.out.print("Digite o 2 numero: ");
 		int number2 = Integer.parseInt(input.nextLine());
 		
 		if (number1 % number2 == 0) {
