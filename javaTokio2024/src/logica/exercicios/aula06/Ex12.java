@@ -39,6 +39,7 @@ public class Ex12 {
 		}else {
 			System.out.println("NAO FORMA UM TRIANGULO");
 		}
+		input.close();
 	}
 
 }
