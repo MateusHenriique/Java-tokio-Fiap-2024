@@ -63,9 +63,9 @@ public class Ex11 {
 		}
 		
 		float totValorTransportado = valorCarga + valorImposto;
-		System.out.printf("O peso da carga do caminhão convertido em quilos e: %.1f\n", pesoCargaEmQuilos);
-		System.out.printf("O preco da carga do caminhao e: R$.2%f\n", valorCarga);
-		System.out.printf("O valor de imposto a ser cobrado é: R$%.2f\n", valorImposto);
+		System.out.printf("O peso da carga do caminhao convertido em quilos e: %.1fkg\n", pesoCargaEmQuilos);
+		System.out.printf("O preco da carga do caminhao e: R$%.2f\n", valorCarga);
+		System.out.printf("O valor de imposto a ser cobrado e: R$%.2f\n", valorImposto);
 		System.out.printf("O valor total transportado pelo caminhao e: R$%.2f\n", totValorTransportado);
 
 		input.close();
