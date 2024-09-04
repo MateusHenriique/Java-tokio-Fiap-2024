@@ -27,7 +27,8 @@ public class Ex12 {
 			}else if((lado1 * lado1) < ((lado2 * lado2) + (lado3 * lado3))) {
 				System.out.println("TRIANGULO ACUTANGULO");
 				
-		    }else if (lado1 == lado2 && lado2 == lado3){
+		    } 
+		    if (lado1 == lado2 && lado2 == lado3){
 				System.out.println("TRIANGULO EQUILATERO");
 				
 			}else if (lado1 == lado2 || lado2 == lado3) {

@@ -9,24 +9,25 @@ public class Ex01 {
 		
 		while (true) {
 			System.out.println("Ola, Mundo!!!");
-			System.out.println("Deseja continuar? [sim/nao]");
-			String continua = input.nextLine();
+			System.out.println("Deseja continuar? [S/N]");
+			char continua = Character.toUpperCase(input.nextLine().charAt(0));
 			
 			while (true) {
-				if (continua != "sim" && continua != "nao" && continua.charAt(0) != 's' && continua.charAt(0) != 'n') {
+				if (continua != 'S' && continua != 'N') {
 					System.out.println("Resposta invalida, tente novamente...");
-					System.out.println("Deseja continuar? [sim/nao]");
-					continua = input.nextLine();
+					System.out.println("Deseja continuar? [S/N]");
+					continua = Character.toUpperCase(input.nextLine().charAt(0));
 				}else {
 					break;
 				}
 			}
 			
-			if (continua == "nao") {
+			if (continua == 'N') {
 				break;
 			}
 		}
+		
 		System.out.println("FIM!");
+		input.close();
 	}
-
 }

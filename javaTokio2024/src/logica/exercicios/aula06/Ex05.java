@@ -31,7 +31,7 @@ public class Ex05 {
 				break;
 				
 			case '/':
-				if (number1 == 0 || number2 == 0) {
+				if (number2 == 0) {
 					System.out.printf("Nao e possivel fazer divisao por 0\n");
 					break;
 				}else {
