@@ -8,7 +8,10 @@ public class Ex03 {
 		Scanner input = new Scanner(System.in); 
 		
 		System.out.println("Digite algo: ");
-		String algo = input.next();
+		String algo = input.nextLine();
+		
+		input.close();
+		
 		int totMaiusc = 0, totMinusc = 0, totNumeric = 0, totSpace = 0;
 		for (int i = 0; i < algo.length(); i++) {
 			
@@ -26,7 +29,6 @@ public class Ex03 {
 			
 			if (algo.charAt(i) == ' ') {
 				totSpace++;
-				System.out.println(totSpace);
 			}
 		}
 		

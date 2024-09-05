@@ -28,6 +28,8 @@ public class Atividade1 {
 		soma += numero;
 		
 		System.out.println("A soma e:" + soma);
+		
+		input.close();
 	}
 
 }

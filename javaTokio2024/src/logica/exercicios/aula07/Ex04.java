@@ -10,7 +10,7 @@ public class Ex04 {
 		int soma = 0;
 		
 		for (int c = 1; c <= 10; c++) {
-			System.out.printf("Digite o %d valor", c);
+			System.out.printf("Digite o %d valor: ", c);
 			valor = Integer.parseInt(input.nextLine());
 			soma += valor;
 		}
