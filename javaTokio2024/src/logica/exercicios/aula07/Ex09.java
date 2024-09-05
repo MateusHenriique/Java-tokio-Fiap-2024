@@ -19,6 +19,7 @@ public class Ex09 {
 			
 		} while (numero < 0);
 		
+		input.close();
 		System.out.printf("todos os numeros divisiveis por %d sao: ", numero);
 		
 		for (i = 1; i <= numero; i++) {
@@ -28,7 +29,6 @@ public class Ex09 {
 			}
 		}
 		
-		input.close();
 	}
 
 }

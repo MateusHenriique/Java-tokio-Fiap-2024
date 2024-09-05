@@ -17,6 +17,8 @@ public class Ex08 {
 			numero = input.nextInt();
 			i++;
 			
+			input.close();
+			
 		} while (numero < 0);
 		
 		int soma = 0;
@@ -31,8 +33,7 @@ public class Ex08 {
 		}
 		
 		System.out.print(soma);
-		
-		input.close();
+
 	}
 
 }
