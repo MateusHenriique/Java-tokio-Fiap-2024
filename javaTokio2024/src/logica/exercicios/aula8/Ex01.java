@@ -14,7 +14,15 @@ public class Ex01 {
 		System.out.println("Digite o seu nome");
 		String nome = input.next();
 		
-		System.out.printf("Ola, %s agora sao %d : %d", nome, horas, minutos);
+		if (horas > 6 && horas < 12) {
+			System.out.printf("Bom Dia, %s agora sao %d:%d da manha", nome, horas, minutos);
+		}else if (horas > 12 && horas < 18) {
+			System.out.printf("Boa Tarde, %s agora sao %d:%d da tarde", nome, horas, minutos);
+		}else if (horas > 18 && horas <= 23) {
+			System.out.printf("Boa Noite, %s agora sao %d:%d da noite", nome, horas, minutos);
+		}else {
+			System.out.printf("Bom Noite, %s agora sao %d:%d da madrugada", nome, horas, minutos);
+		}
 		
 		input.close();
 	}
