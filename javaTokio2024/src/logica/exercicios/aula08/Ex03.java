@@ -1,4 +1,4 @@
-package logica.exercicios.aula8;
+package logica.exercicios.aula08;
 
 import java.util.Scanner;
 

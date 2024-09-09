@@ -1,4 +1,4 @@
-package logica.exercicios.aula8;
+package logica.exercicios.aula08;
 
 public class Ex04 {
 
