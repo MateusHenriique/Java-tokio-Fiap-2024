@@ -5,7 +5,7 @@ public class Ex02 {
 		String s = "FIAPTOKIO";
 		char c [] = new char [9];
 		
-		for (int i = s.length(); i < -1 ; i--) {
+		for (int i = s.length() - 1; i >= 0 ; i--) {
 			c[i] = s.charAt(i);
 		}
 		for (char letra : c) {
