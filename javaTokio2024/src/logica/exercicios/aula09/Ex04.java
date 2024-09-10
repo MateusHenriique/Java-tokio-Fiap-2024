@@ -21,6 +21,8 @@ public class Ex04 {
 			
 		}
 		
+		input.close();
+		
 		int totIgualSala = 0, totMaiorSala = 0, totMenorSala = 0;
 		
 		for (float nota : notaAlunos) {
