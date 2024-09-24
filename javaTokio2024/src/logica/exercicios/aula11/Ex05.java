@@ -21,7 +21,7 @@ public class Ex05 extends OperacoesMatematicas {
 		
 		if (valor2 == 0 && operacao == '/') {
 			System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=");
-			System.out.println("divisao por o tende ao infinito.");
+			System.out.println("A divisao por 0 tende ao infinito.");
 		} else {
 			System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=");
 			System.out.println(resultado);

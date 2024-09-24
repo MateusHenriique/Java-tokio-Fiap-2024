@@ -14,8 +14,6 @@ public class Ex07 {
 			System.out.println("Digite o nome da pessoa: [enter para finalizar]");
 			resposta = input.nextLine();
 			
-			input.close();
-			
 			if (!resposta.isEmpty()) {
 				nomes.add(resposta);
 			}else {
@@ -27,5 +25,6 @@ public class Ex07 {
 		for (int i = nomes.size() -1; i >= 0 ; i--) {
 			System.out.println(nomes.get(i));
 		}
+		input.close();
 	}
 }
